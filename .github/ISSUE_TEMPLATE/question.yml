@@ -1,0 +1,31 @@
+name: "Question / Help"
+description: "Ask a usage or installation question"
+title: "[Question]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Check the README, FAQ and SUPPORT.md first. Do not include API keys, tokens, personal data or private code."
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Topic"
+      options:
+        - "Installation / updates"
+        - "IDE / editor"
+        - "BustaAgents"
+        - "AI provider connection"
+        - "Extensions"
+        - "Git / MCP / DevOps"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: "What do you need help with?"
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: "What have you tried? (optional)"

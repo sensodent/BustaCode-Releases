@@ -1,0 +1,73 @@
+name: "Bug report"
+description: "Report a reproducible BustaCode problem"
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Search existing issues first. Remove credentials, personal data and private project files. Vulnerabilities must follow SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: "BustaCode version"
+      placeholder: "0.12.25"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: "Windows version"
+      placeholder: "Windows 11 (x64)"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: "Affected area"
+      options:
+        - "IDE / editor"
+        - "BustaAI / chat"
+        - "BustaAgents"
+        - "Codex / Cursor / OpenAI"
+        - "Git / worktrees"
+        - "MCP / connectors"
+        - "Docker / DevOps / SSH"
+        - "Graph / architecture"
+        - "Installer / updates"
+        - "Extensions"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
+      placeholder: "1. Open ...\n2. Click ...\n3. Observe ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual behavior"
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: "Screenshots or sanitized logs (optional)"
+      description: "Do not include tokens, passwords, personal data or private code."
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Before submitting"
+      options:
+        - label: "I searched for an existing report."
+          required: true
+        - label: "I removed private or sensitive information."
+          required: true

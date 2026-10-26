@@ -1,0 +1,27 @@
+BustaCode — Distribution and License Notice
+=============================================
+
+This repository distributes official installer binaries, update manifests and
+public documentation. It does not contain the complete BustaCode source code.
+Publishing release binaries here does not grant an open-source license to the
+BustaCode-specific application code or its branding.
+
+BustaCode is currently available to download without charge. Rights in
+BustaCode-specific components and branding are reserved by their respective
+holders unless individual files or accompanying notices state otherwise.
+
+THIRD-PARTY COMPONENTS
+
+BustaCode is based on Code - OSS, published by Microsoft under the MIT license:
+https://github.com/microsoft/vscode
+
+The MIT terms and other third-party license notices continue to apply to
+their respective components. Review the LICENSE and third-party notices
+included with the application distribution.
+
+This notice does not relicense Code - OSS, override third-party licenses, or
+assert that every component of the installer is proprietary. It is not an
+open-source license for BustaCode's complete application.
+
+BustaCode is an independent project and is not affiliated with Microsoft,
+OpenAI, Cursor or other providers mentioned in the documentation.

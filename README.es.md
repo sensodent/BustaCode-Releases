@@ -71,6 +71,12 @@ BustaCode es **gratuito**. Las cuentas, claves API, suscripciones, límites de u
 - El catálogo de extensiones es **Open VSX**, **no el Visual Studio Marketplace de Microsoft**. Algunas extensiones propietarias pueden no estar disponibles.
 - El actualizador verifica los manifiestos y la integridad de los instaladores mediante firmas criptográficas y checksums.
 
+## Soporte y comunidad
+
+- [Comunicar un error, hacer una pregunta o sugerir una función](https://github.com/sensodent/BustaCode-Releases/issues/new/choose)
+- [Preguntas frecuentes](FAQ.md) · [Soporte](SUPPORT.md) · [Seguridad](SECURITY.md)
+- [Contribuir](CONTRIBUTING.md) · [Código de conducta](CODE_OF_CONDUCT.md) · [Accesibilidad](ACCESSIBILITY.md) · [Aviso de licencia](LICENSE)
+
 ## Descargas y estado del proyecto
 
 **[Última versión](https://github.com/sensodent/BustaCode-Releases/releases/latest)** · [Todas las versiones](https://github.com/sensodent/BustaCode-Releases/releases)
